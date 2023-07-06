@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-05T15:00:52 IST" name="Suite" finished-at="2023-07-05T15:00:52 IST" duration-ms="88">
+    <groups>
+      <group name="functional">
+        <method signature="GroupingTestCase2.payment()[pri:5, instance:testngAll.GroupingTestCase2@7b9a4292]" name="payment" class="testngAll.GroupingTestCase2"/>
+        <method signature="GroupingTestCases.home()[pri:4, instance:testngAll.GroupingTestCases@359f7cdf]" name="home" class="testngAll.GroupingTestCases"/>
+      </group> <!-- functional -->
+    </groups>
+    <test started-at="2023-07-05T15:00:52 IST" name="Test" finished-at="2023-07-05T15:00:52 IST" duration-ms="88">
+      <class name="testngAll.GroupingTestCase2">
+        <test-method signature="payment()[pri:5, instance:testngAll.GroupingTestCase2@7b9a4292]" started-at="2023-07-05T15:00:52 IST" name="payment" finished-at="2023-07-05T15:00:52 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+      </class> <!-- testngAll.GroupingTestCase2 -->
+      <class name="testngAll.GroupingTestCases">
+        <test-method signature="home()[pri:4, instance:testngAll.GroupingTestCases@359f7cdf]" started-at="2023-07-05T15:00:52 IST" name="home" finished-at="2023-07-05T15:00:52 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+      </class> <!-- testngAll.GroupingTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
